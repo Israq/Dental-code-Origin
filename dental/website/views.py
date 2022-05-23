@@ -14,14 +14,14 @@ def service(request):
     return render(request, 'service.html')
 def implant(request):
     return render(request, 'implant.html')
-def photos(request):
-    return render(request, 'photos.html')
+
 def videos(request):
     return render(request, 'videos.html')
 def dentists(request):
     return render(request, 'dentists.html')
 def g_dentistry(request):
     return render(request, 'g_dentistry.html')
+
 
 
 def contact(request):
