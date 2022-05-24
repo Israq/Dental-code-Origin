@@ -21,6 +21,8 @@ def dentists(request):
     return render(request, 'dentists.html')
 def g_dentistry(request):
     return render(request, 'g_dentistry.html')
+def ddetails1(request):
+    return render(request, 'ddetails1.html')    
 
 
 
