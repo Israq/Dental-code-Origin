@@ -14,7 +14,8 @@ def service(request):
     return render(request, 'service.html')
 def implant(request):
     return render(request, 'implant.html')
-
+def implant2(request):
+    return render(request, 'implant2.html')
 def videos(request):
     return render(request, 'videos.html')
 def dentists(request):
@@ -22,7 +23,15 @@ def dentists(request):
 def g_dentistry(request):
     return render(request, 'g_dentistry.html')
 def ddetails1(request):
-    return render(request, 'ddetails1.html')    
+    return render(request, 'ddetails1.html')
+def ddetails2(request):
+    return render(request, 'ddetails2.html')
+def ddetails3(request):
+    return render(request, 'ddetails3.html')
+def ddetails4(request):
+    return render(request, 'ddetails4.html')
+def ddetails5(request):
+    return render(request, 'ddetails5.html')    
 
 
 
